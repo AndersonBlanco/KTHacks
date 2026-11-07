@@ -75,12 +75,12 @@ app.get("/api/transactions", async (req, res) =>{
 
 //POST
 //test: 
-```
+/*
 curl -i -X POST http://localhost:3000/api/transactions \
   -H "Content-Type: application/json" \
   -d '{"transactionId": "TX00000002"}'               
 
-```
+*/
 
 app.post("/api/transactions", async (req, res) =>{
     try{
