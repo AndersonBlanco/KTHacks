@@ -1,4 +1,6 @@
+
 require('dotenv').config();
+const cors = require('cors');
 
 const express = require('express');
 const {createClient} = require('@supabase/supabase-js');
@@ -7,6 +9,7 @@ const supabase = createClient(process.env.SUPABASE_PROJECT_URL, process.env.SUPA
 
 const app = express();
 
+app.use(cors()); //enable cors for all origins, methods, and headers. can be configured to be more restrictive if needed
 app.use(express.json());
 
 
