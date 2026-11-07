@@ -5,6 +5,18 @@ It covers basic CRUD on a transactions table (called `Creds`) in Supabase.
 
 Live version: https://kthacks.onrender.com
 
+## Dataset
+
+Workshop data comes from Kaggle Datasets:
+https://www.kaggle.com/datasets
+
+Pick a dataset there, load it into a Supabase table, and build an API
+on top of it the same way this one is built.
+
+This demo uses the Credit Card Fraud Detection with Drift dataset,
+loaded into the `Creds` table:
+https://www.kaggle.com/datasets/mohankrishnathalla/credit-card-fraud-detection-with-drift-2026
+
 ## Run it locally
 
 npm install
