@@ -9,7 +9,7 @@ const supabase = createClient(process.env.SUPABASE_PROJECT_URL, process.env.SUPA
 
 const app = express();
 
-app.use(cors()); // Without this, some frontend calls will be blcoked. Enable cors for all origins, methods, and headers. can be configured to be more restrictive if needed
+app.use(cors()); //enable cors for all origins, methods, and headers. can be configured to be more restrictive if needed
 app.use(express.json());
 
 
